@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/*input[type=submit]*/
 @font-face {
   font-family: ArialRoundedMTBold;
   src: url(../fonts/ArialRoundedMTBold.ttf); }
@@ -179,11 +178,15 @@ a:hover, a:focus {
     .main-mnu ul a:hover {
       text-decoration: none; }
 
+.nopadding {
+  padding: 0 !important; }
+
 .slider {
   position: relative;
   height: 867px;
   overflow: hidden;
-  border-bottom: 14px solid #000; }
+  border-bottom: 14px solid #000;
+  width: 100%; }
   .slider:before {
     content: "";
     position: absolute;
@@ -228,6 +231,119 @@ a:hover, a:focus {
       background: url("../img/2.png") no-repeat 0 0; }
     .slider-icons span:nth-child(3) {
       background: url("../img/3.png") no-repeat 0 0; }
+
+.trust {
+  padding-top: 30px;
+  padding-bottom: 58px;
+  overflow: hidden;
+  border-bottom: 15px solid #000; }
+  .trust ul {
+    display: block;
+    text-align: center; }
+    .trust ul li {
+      display: inline-block;
+      margin: 0 20px; }
+  .trust h2 {
+    margin-top: 0;
+    margin-bottom: 45px;
+    color: black;
+    font-family: Arial;
+    font-size: 33px;
+    font-weight: 700;
+    text-align: center; }
+
+.trust-slider {
+  position: relative; }
+
+.trust-buttons {
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+  width: 100%; }
+  .trust-buttons a {
+    display: block;
+    width: 31px;
+    height: 50px; }
+
+.prev {
+  background: url("../img/prev.png") no-repeat 0 0;
+  position: absolute;
+  left: 25px; }
+
+.next {
+  background: url("../img/next.png") no-repeat 0 0;
+  position: absolute;
+  right: 25px; }
+
+.trust.sert {
+  padding-top: 30px;
+  padding-bottom: 40px; }
+  .trust.sert li {
+    margin: 0 83px; }
+
+.bb15, .main-form {
+  border-bottom: 15px solid #000; }
+
+.main-form {
+  background: url("../img/form-main-bg.png") no-repeat 0 0;
+  height: 1195px;
+  width: 100%;
+  padding-top: 135px;
+  overflow: hidden;
+  background-position: bottom center; }
+  .main-form .form-wrap {
+    padding-top: 234px;
+    background: url("../img/form-bg.png") no-repeat 0 0;
+    width: 896px;
+    height: 907px;
+    margin: auto;
+    position: relative; }
+    .main-form .form-wrap form {
+      width: 300px;
+      margin: auto;
+      text-align: center; }
+    .main-form .form-wrap input[type=text] {
+      width: 220px;
+      height: 40px;
+      border: none;
+      background-color: white;
+      color: #b9b6b6;
+      font-family: Arial;
+      font-size: 17px;
+      font-weight: 700;
+      padding: 0 10px;
+      margin-bottom: 20px; }
+    .main-form .form-wrap input[type=submit] {
+      margin-top: 20px;
+      padding: 0 20px;
+      height: 60px;
+      background-color: #0066d0;
+      border: 3px solid #0066d0;
+      color: white;
+      font-family: Arial;
+      font-size: 17px;
+      font-weight: 700;
+      text-align: center; }
+    .main-form .form-wrap:after {
+      content: "";
+      display: block;
+      position: absolute;
+      right: -100px;
+      bottom: -120px;
+      background: url("../img/pen.png") no-repeat 0 0;
+      width: 314px;
+      height: 580px; }
+
+.form-text {
+  width: 90%;
+  margin: auto;
+  color: black;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 40px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
