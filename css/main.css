@@ -1,19 +1,8 @@
+@charset "UTF-8";
 /*input[type=submit]*/
 @font-face {
-  font-family: Oranienbaum;
-  src: url(../fonts/oranienbaum.ttf); }
-
-@font-face {
-  font-family: UniSansHeavyCAPS;
-  src: url(../fonts/unicaps.otf); }
-
-@font-face {
-  font-family: PTSans;
-  src: url(../fonts/pt-sans.ttf); }
-
-@font-face {
-  font-family: "Myriad Pro";
-  src: url(../fonts/MyriadProRegular.ttf); }
+  font-family: ArialRoundedMTBold;
+  src: url(../fonts/ArialRoundedMTBold.ttf); }
 
 .toggle-mnu {
   display: block;
@@ -74,6 +63,171 @@
 .toggle-mnu.on + #menu {
   opacity: 1;
   visibility: visible; }
+
+* {
+  line-height: 1; }
+
+ul, li {
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style: none; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
+.wrapper {
+  width: 1300px;
+  margin: auto;
+  overflow: hidden; }
+
+.top {
+  padding: 23px;
+  background-color: #FFF;
+  overflow: hidden; }
+
+.logo {
+  width: 380px;
+  float: left;
+  margin-top: 30px;
+  display: block;
+  height: 101px; }
+  .logo img {
+    float: left; }
+  .logo span {
+    display: block;
+    float: right;
+    height: 101px;
+    width: 205px;
+    color: black;
+    font-family: Arial;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 29px; }
+
+.top-r {
+  float: right;
+  text-align: right; }
+
+.call-back {
+  width: 250px;
+  height: 80px;
+  background-color: #0066d0;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 3.3;
+  margin-bottom: 10px; }
+  .call-back:hover {
+    color: #FFF;
+    text-decoration: none; }
+  .call-back:active {
+    color: #FFF;
+    text-decoraразмерtion: none; }
+  .call-back:focus {
+    color: #FFF;
+    text-decoration: none; }
+  .call-back:visited {
+    color: #FFF;
+    text-decoration: none; }
+
+.top-phone {
+  background: url("../img/wa.png") no-repeat 0 0;
+  background-position: left center;
+  color: black;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: 700;
+  padding-left: 40px;
+  display: block;
+  margin-bottom: 10px;
+  padding: 3px 0; }
+  .top-phone:hover {
+    text-decoration: none; }
+
+.top-mail {
+  display: block;
+  color: black;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: 700; }
+  .top-mail:hover {
+    text-decoration: none; }
+
+.main-mnu ul {
+  display: block;
+  height: 120px;
+  background-color: #0066d0;
+  width: 100%;
+  text-align: center;
+  padding-top: 43px; }
+  .main-mnu ul li {
+    display: inline-block;
+    margin: 0 20px; }
+  .main-mnu ul a {
+    color: white;
+    font-family: Arial;
+    font-size: 33px;
+    font-weight: 700; }
+    .main-mnu ul a:hover {
+      text-decoration: none; }
+
+.slider {
+  position: relative;
+  height: 867px;
+  overflow: hidden;
+  border-bottom: 14px solid #000; }
+  .slider:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0.5; }
+
+.slider-text {
+  z-index: 20;
+  color: #FFF;
+  bottom: 190px;
+  position: absolute;
+  text-align: center;
+  width: 100%; }
+
+.slider-slogan {
+  font-family: Arial;
+  font-size: 58px;
+  font-weight: 700;
+  margin-bottom: 160px; }
+
+.slider-icons {
+  width: 920px;
+  margin: auto; }
+  .slider-icons span {
+    font-family: Arial;
+    font-size: 29px;
+    font-weight: 400;
+    display: block;
+    width: 33.3%;
+    float: left;
+    background-position: top center !important;
+    padding-top: 170px;
+    line-height: 1.2; }
+    .slider-icons span:first-child {
+      background: url("../img/1.png") no-repeat 0 0; }
+    .slider-icons span:nth-child(2) {
+      background: url("../img/2.png") no-repeat 0 0; }
+    .slider-icons span:nth-child(3) {
+      background: url("../img/3.png") no-repeat 0 0; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
