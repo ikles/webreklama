@@ -345,6 +345,69 @@ a:hover, a:focus {
   line-height: 1.5;
   margin-bottom: 40px; }
 
+.footer1 {
+  padding: 70px 120px 50px 120px;
+  background-color: #FFF;
+  overflow: hidden; }
+  .footer1 li {
+    margin-bottom: 37px;
+    line-height: 1; }
+    .footer1 li:last-child {
+      margin-bottom: 0; }
+    .footer1 li a {
+      color: black;
+      font-family: Arial;
+      font-size: 21px;
+      font-weight: 400; }
+
+.f1-mnu1 {
+  float: left; }
+
+.f1-mnu2 {
+  float: right; }
+
+.footer2 {
+  background-color: #0066d0;
+  padding: 60px 78px 38px 60px;
+  overflow: hidden;
+  color: black;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 700; }
+  .footer2 a {
+    color: black;
+    font-family: Arial;
+    font-size: 21px;
+    font-weight: 700; }
+
+.f2-l {
+  float: left; }
+
+.b-phone {
+  margin-bottom: 20px; }
+
+.f2-r {
+  float: right; }
+
+.copy {
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: black;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 700; }
+  .copy p {
+    margin: 0; }
+
+.fb {
+  text-align: center;
+  margin-bottom: 30px; }
+  .fb span {
+    display: block;
+    margin: auto;
+    margin-top: 20px; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
