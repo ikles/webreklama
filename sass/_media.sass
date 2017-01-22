@@ -1,9 +1,27 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) 
+@media only screen and (max-width : 1300px)
+	.wrapper
+		width: 100%
 	
-			
+	.main-mnu
+		li
+			a
+				font-size: 31px
+	
+	.trust-slider
+		img
+			height: auto
+			width: 150px
+	
+	.sert-slider
+		img
+			width: 200px
+			height: auto
+
+@media only screen and (max-width : 1200px) 
+				
 	.main-mnu
 		display: none
 		float: right
@@ -35,11 +53,38 @@
 					
 		a:hover, li.active a 
 			border: none
-			
+		
+	.toggle-mnu
+		margin-bottom: 10px
+	
+	.col-mnu
+		background-color: #0066d0 
+
+	.main-mnu
+		z-index: 30
+
+	.main-mnu li a
+		font-size: 22px
+
+	.slider-slogan
+		font-size: 52px
+	
+	.trust-slider img
+		width: 131px
+	
+	.sert-slider img
+		width: 155px
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) 
-	/**/
+	.slider-icons
+		width: 100%
 	
+	.trust-slider img
+		width: 78px
+	
+	.trust-buttons
+		bottom: 62px
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) 	
