@@ -497,6 +497,30 @@ a:hover, a:focus {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  .main-form .form-wrap input[type=submit] {
+    width: 220px;
+    font-size: 13px; }
+  .main-form {
+    height: 572px; }
+    .main-form .form-wrap {
+      padding-top: 50px;
+      margin-top: 50px;
+      background-size: 320px auto;
+      width: 320px;
+      margin-left: auto;
+      margin-right: auto; }
+      .main-form .form-wrap:after {
+        display: none; }
+  .form-text {
+    margin-top: -240px; }
+    .form-text span {
+      display: none; }
+  .trust.sert li {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px; }
+    .trust.sert li img {
+      width: 150px; }
   .slider-icons span {
     background-size: 87px auto !important;
     font-size: 25px; }
